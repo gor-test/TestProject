@@ -128,12 +128,5 @@ class ProductListViewController: UITableViewController, ProductListDisplayLogic
         
         return cell
     }
-    
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let storyboard = UIStoryboard(name: "ProductDetail", bundle: nil)
-//        let vc = storyboard.instantiateViewController(withIdentifier: "ProductDetail") as! ProductViewController
-//        let selectedProduct = products[indexPath.row]
-//        vc.product = selectedProduct
-//        self.present(vc, animated: true)
-//    }
+
 }

@@ -34,7 +34,7 @@ In case of need of large scale project, that more than 3-4 scrum teams will be w
   - Packages maintainer
 
 ## Tests
-Implementation of clean-swift is allowing to have high coverage for unit tests. Because of separation of the concerns here, it's possible to have tergetted unit tests with mock data if needed.
+Implementation of clean-swift is allowing to have high coverage for unit tests. Because of separation of the concerns here, it's possible to have targeted unit tests with mock data if needed.
 No tests are implemented in the project yet.
 
 ## Improvement points on Test/Demo project
