@@ -16,12 +16,14 @@ class ProductDetailViewController: UIViewController {
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var ratings: StarRatingControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLabel.text = product?.name
         priceLabel.text = product?.price
         productImage.load(url: product?.image ?? "")
+        ratings.rating = Int.random(in: 1...5)
     }
     /*
     // MARK: - Navigation

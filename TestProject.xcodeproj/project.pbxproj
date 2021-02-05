@@ -29,6 +29,7 @@
 		AA7DEB5E25CD47AA0039B911 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DEB5D25CD47AA0039B911 /* UIImageView+Extensions.swift */; };
 		AA7DEB6325CD4AA50039B911 /* ProductList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7DEB6225CD4AA50039B911 /* ProductList.storyboard */; };
 		AA7DEB6825CD4E150039B911 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DEB6725CD4E150039B911 /* ProductDetailViewController.swift */; };
+		AA7DEB7325CD9EBB0039B911 /* ProductDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7DEB7225CD9EBB0039B911 /* ProductDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		AA7DEB5D25CD47AA0039B911 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		AA7DEB6225CD4AA50039B911 /* ProductList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProductList.storyboard; sourceTree = "<group>"; };
 		AA7DEB6725CD4E150039B911 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		AA7DEB7225CD9EBB0039B911 /* ProductDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProductDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		AA7DEB2225CD107F0039B911 /* ProductDetail */ = {
 			isa = PBXGroup;
 			children = (
+				AA7DEB7225CD9EBB0039B911 /* ProductDetail.storyboard */,
 				AA7DEB6725CD4E150039B911 /* ProductDetailViewController.swift */,
 			);
 			path = ProductDetail;
@@ -341,6 +344,7 @@
 				AA7DEAF725CD10410039B911 /* Assets.xcassets in Resources */,
 				AA7DEB6325CD4AA50039B911 /* ProductList.storyboard in Resources */,
 				AA7DEAF525CD103F0039B911 /* Main.storyboard in Resources */,
+				AA7DEB7325CD9EBB0039B911 /* ProductDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
